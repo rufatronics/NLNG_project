@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="primary">#1B6B35</color>
+    <color name="primary_dark">#0D3D1E</color>
+    <color name="primary_light">#E8F5E9</color>
+    <color name="accent">#F4A922</color>
+
+    <!-- Background / Surface -->
+    <color name="background">#F2F4F0</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Card colours for dashboard tiles -->
+    <color name="card_green">#2E7D32</color>
+    <color name="card_blue">#1565C0</color>
+    <color name="card_purple">#6A1B9A</color>
+    <color name="card_red">#C62828</color>
+    <color name="card_gray">#455A64</color>
+
+    <!-- Confidence / result indicators -->
+    <color name="confidence_high">#2E7D32</color>
+    <color name="confidence_medium">#F57F17</color>
+    <color name="confidence_low">#C62828</color>
+
+    <!-- Severity levels -->
+    <color name="severity_critical">#B71C1C</color>
+    <color name="severity_high">#E53935</color>
+    <color name="severity_medium">#FB8C00</color>
+    <color name="severity_low">#43A047</color>
+
+    <!-- Chat bubbles -->
+    <color name="bubble_user">#1B6B35</color>
+    <color name="bubble_assistant">#FFFFFF</color>
+</resources>
