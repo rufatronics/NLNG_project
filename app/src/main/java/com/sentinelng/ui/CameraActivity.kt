@@ -98,7 +98,7 @@ class CameraActivity : AppCompatActivity() {
                     image.close()
 
                     val lang = LanguageManager.getLanguage(this@CameraActivity)
-                    binding.tvStatus.text = LanguageManager.getAnalysingMessage(lang)
+                    binding.tvStatusText.text = LanguageManager.getAnalysingMessage(lang)
                     binding.tvStatus.visibility = View.VISIBLE
 
                     viewModel.runInference(bitmap, modelType)

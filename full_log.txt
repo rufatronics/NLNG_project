@@ -1,0 +1,252 @@
+build	Set up job	﻿2026-04-29T00:35:41.0242140Z Current runner version: '2.334.0'
+build	Set up job	2026-04-29T00:35:41.0280660Z ##[group]Runner Image Provisioner
+build	Set up job	2026-04-29T00:35:41.0281787Z Hosted Compute Agent
+build	Set up job	2026-04-29T00:35:41.0282695Z Version: 20260213.493
+build	Set up job	2026-04-29T00:35:41.0283787Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+build	Set up job	2026-04-29T00:35:41.0284985Z Build Date: 2026-02-13T00:28:41Z
+build	Set up job	2026-04-29T00:35:41.0286048Z Worker ID: {7d7dd2a8-6e52-4938-937f-3de44ac40c30}
+build	Set up job	2026-04-29T00:35:41.0287329Z Azure Region: eastus2
+build	Set up job	2026-04-29T00:35:41.0288257Z ##[endgroup]
+build	Set up job	2026-04-29T00:35:41.0291479Z ##[group]Operating System
+build	Set up job	2026-04-29T00:35:41.0292576Z Ubuntu
+build	Set up job	2026-04-29T00:35:41.0293256Z 24.04.4
+build	Set up job	2026-04-29T00:35:41.0294024Z LTS
+build	Set up job	2026-04-29T00:35:41.0294768Z ##[endgroup]
+build	Set up job	2026-04-29T00:35:41.0295638Z ##[group]Runner Image
+build	Set up job	2026-04-29T00:35:41.0296591Z Image: ubuntu-24.04
+build	Set up job	2026-04-29T00:35:41.0297469Z Version: 20260413.86.1
+build	Set up job	2026-04-29T00:35:41.0299367Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260413.86/images/ubuntu/Ubuntu2404-Readme.md
+build	Set up job	2026-04-29T00:35:41.0302090Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260413.86
+build	Set up job	2026-04-29T00:35:41.0303549Z ##[endgroup]
+build	Set up job	2026-04-29T00:35:41.0305399Z ##[group]GITHUB_TOKEN Permissions
+build	Set up job	2026-04-29T00:35:41.0308128Z Contents: read
+build	Set up job	2026-04-29T00:35:41.0309292Z Metadata: read
+build	Set up job	2026-04-29T00:35:41.0310040Z Packages: read
+build	Set up job	2026-04-29T00:35:41.0310834Z ##[endgroup]
+build	Set up job	2026-04-29T00:35:41.0313540Z Secret source: Actions
+build	Set up job	2026-04-29T00:35:41.0314856Z Prepare workflow directory
+build	Set up job	2026-04-29T00:35:41.0782908Z Prepare all required actions
+build	Set up job	2026-04-29T00:35:41.0836455Z Getting action download info
+build	Set up job	2026-04-29T00:35:41.4098107Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+build	Set up job	2026-04-29T00:35:41.5448879Z Download action repository 'actions/setup-java@v4' (SHA:c1e323688fd81a25caa38c78aa6df2d33d3e20d9)
+build	Set up job	2026-04-29T00:35:41.9066846Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+build	Set up job	2026-04-29T00:35:42.1223120Z Complete job name: build
+build	Run actions/checkout@v4	﻿2026-04-29T00:35:42.1944061Z ##[group]Run actions/checkout@v4
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1944907Z with:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1945297Z   lfs: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1945753Z   repository: abdul123456789umar-stack/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1946489Z   token: ***
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1946881Z   ssh-strict: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1947284Z   ssh-user: git
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1947682Z   persist-credentials: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1948152Z   clean: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1948837Z   sparse-checkout-cone-mode: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1949335Z   fetch-depth: 1
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1949731Z   fetch-tags: false
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1950133Z   show-progress: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1950564Z   submodules: false
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1950973Z   set-safe-directory: true
+build	Run actions/checkout@v4	2026-04-29T00:35:42.1951836Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3056870Z Syncing repository: abdul123456789umar-stack/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3058950Z ##[group]Getting Git version info
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3059700Z Working directory is '/home/runner/work/NLNG_project/NLNG_project'
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3060768Z [command]/usr/bin/git version
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3114230Z git version 2.53.0
+build	Run actions/checkout@v4	2026-04-29T00:35:42.3167300Z [command]/usr/bin/git lfs version
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6032030Z git-lfs/3.7.1 (GitHub; linux amd64; go 1.24.4)
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6046326Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6064728Z Temporarily overriding HOME='/home/runner/work/_temp/211a1ea2-d1e4-4fc1-a6d2-0fd3bad4e479' before making global git config changes
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6067372Z Adding repository directory to the temporary git global config as a safe directory
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6072184Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/NLNG_project/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6104956Z Deleting the contents of '/home/runner/work/NLNG_project/NLNG_project'
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6108820Z ##[group]Initializing the repository
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6112832Z [command]/usr/bin/git init /home/runner/work/NLNG_project/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6211941Z hint: Using 'master' as the name for the initial branch. This default branch name
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6213953Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6215892Z hint: to use in all of your new repositories, which will suppress this warning,
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6217454Z hint: call:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6218252Z hint:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6219584Z hint: 	git config --global init.defaultBranch <name>
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6220805Z hint:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6221886Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6223650Z hint: 'development'. The just-created branch can be renamed via this command:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6225163Z hint:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6226000Z hint: 	git branch -m <name>
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6226939Z hint:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6228090Z hint: Disable this message with "git config set advice.defaultBranchName false"
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6230320Z Initialized empty Git repository in /home/runner/work/NLNG_project/NLNG_project/.git/
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6233620Z [command]/usr/bin/git remote add origin https://github.com/abdul123456789umar-stack/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6259044Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6260459Z ##[group]Disabling automatic garbage collection
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6264087Z [command]/usr/bin/git config --local gc.auto 0
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6290315Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6291752Z ##[group]Setting up auth
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6298130Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6329163Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6572039Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6600824Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6822084Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Run actions/checkout@v4	2026-04-29T00:35:42.6854830Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7071157Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7105810Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7109939Z [command]/usr/bin/git lfs install --local
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7440216Z Updated Git hooks.
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7441067Z Git LFS initialized.
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7463790Z ##[group]Fetching the repository
+build	Run actions/checkout@v4	2026-04-29T00:35:42.7466312Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +2418de386b1d9c2553d4cef58cf71728392e2057:refs/remotes/origin/main
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9442275Z From https://github.com/abdul123456789umar-stack/NLNG_project
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9444366Z  * [new ref]         2418de386b1d9c2553d4cef58cf71728392e2057 -> origin/main
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9470787Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9471823Z ##[group]Determining the checkout info
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9473471Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9474455Z ##[group]Fetching LFS objects
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9478617Z [command]/usr/bin/git lfs fetch origin refs/remotes/origin/main
+build	Run actions/checkout@v4	2026-04-29T00:35:42.9687914Z Fetching reference refs/remotes/origin/main
+build	Run actions/checkout@v4	2026-04-29T00:35:56.2733389Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:56.2739110Z [command]/usr/bin/git sparse-checkout disable
+build	Run actions/checkout@v4	2026-04-29T00:35:56.2777885Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+build	Run actions/checkout@v4	2026-04-29T00:35:56.2804036Z ##[group]Checking out the ref
+build	Run actions/checkout@v4	2026-04-29T00:35:56.2810895Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+build	Run actions/checkout@v4	2026-04-29T00:35:56.7960413Z Switched to a new branch 'main'
+build	Run actions/checkout@v4	2026-04-29T00:35:56.7962042Z branch 'main' set up to track 'origin/main'.
+build	Run actions/checkout@v4	2026-04-29T00:35:56.8204978Z ##[endgroup]
+build	Run actions/checkout@v4	2026-04-29T00:35:56.8241056Z [command]/usr/bin/git log -1 --format=%H
+build	Run actions/checkout@v4	2026-04-29T00:35:56.8262352Z 2418de386b1d9c2553d4cef58cf71728392e2057
+build	set up JDK 17	﻿2026-04-29T00:35:56.8496666Z ##[group]Run actions/setup-java@v4
+build	set up JDK 17	2026-04-29T00:35:56.8496961Z with:
+build	set up JDK 17	2026-04-29T00:35:56.8497140Z   java-version: 17
+build	set up JDK 17	2026-04-29T00:35:56.8497334Z   distribution: temurin
+build	set up JDK 17	2026-04-29T00:35:56.8497528Z   cache: gradle
+build	set up JDK 17	2026-04-29T00:35:56.8497711Z   java-package: jdk
+build	set up JDK 17	2026-04-29T00:35:56.8497894Z   check-latest: false
+build	set up JDK 17	2026-04-29T00:35:56.8498087Z   server-id: github
+build	set up JDK 17	2026-04-29T00:35:56.8498270Z   server-username: GITHUB_ACTOR
+build	set up JDK 17	2026-04-29T00:35:56.8498715Z   server-password: GITHUB_TOKEN
+build	set up JDK 17	2026-04-29T00:35:56.8498950Z   overwrite-settings: true
+build	set up JDK 17	2026-04-29T00:35:56.8499170Z   job-status: success
+build	set up JDK 17	2026-04-29T00:35:56.8499477Z   token: ***
+build	set up JDK 17	2026-04-29T00:35:56.8499645Z ##[endgroup]
+build	set up JDK 17	2026-04-29T00:35:57.0563734Z ##[group]Installed distributions
+build	set up JDK 17	2026-04-29T00:35:57.0629364Z Resolved Java 17.0.18+8 from tool-cache
+build	set up JDK 17	2026-04-29T00:35:57.0630620Z Setting Java 17.0.18+8 as the default
+build	set up JDK 17	2026-04-29T00:35:57.0644580Z Creating toolchains.xml for JDK version 17 from temurin
+build	set up JDK 17	2026-04-29T00:35:57.0724708Z Writing to /home/runner/.m2/toolchains.xml
+build	set up JDK 17	2026-04-29T00:35:57.0725227Z 
+build	set up JDK 17	2026-04-29T00:35:57.0725392Z Java configuration:
+build	set up JDK 17	2026-04-29T00:35:57.0726476Z   Distribution: temurin
+build	set up JDK 17	2026-04-29T00:35:57.0728572Z   Version: 17.0.18+8
+build	set up JDK 17	2026-04-29T00:35:57.0729159Z   Path: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	set up JDK 17	2026-04-29T00:35:57.0729668Z 
+build	set up JDK 17	2026-04-29T00:35:57.0730245Z ##[endgroup]
+build	set up JDK 17	2026-04-29T00:35:57.0746311Z Creating settings.xml with server-id: github
+build	set up JDK 17	2026-04-29T00:35:57.0755616Z Writing to /home/runner/.m2/settings.xml
+build	set up JDK 17	2026-04-29T00:35:57.2347822Z gradle cache is not found
+build	Grant execute permission for gradlew	﻿2026-04-29T00:35:57.2547424Z ##[group]Run chmod +x gradlew
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2547763Z [36;1mchmod +x gradlew[0m
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2574651Z shell: /usr/bin/bash -e {0}
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2574935Z env:
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2575225Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2575718Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Grant execute permission for gradlew	2026-04-29T00:35:57.2576073Z ##[endgroup]
+build	Build with Gradle	﻿2026-04-29T00:35:57.2681018Z ##[group]Run ./gradlew assembleDebug
+build	Build with Gradle	2026-04-29T00:35:57.2681345Z [36;1m./gradlew assembleDebug[0m
+build	Build with Gradle	2026-04-29T00:35:57.2701843Z shell: /usr/bin/bash -e {0}
+build	Build with Gradle	2026-04-29T00:35:57.2702085Z env:
+build	Build with Gradle	2026-04-29T00:35:57.2702375Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build with Gradle	2026-04-29T00:35:57.2702846Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build with Gradle	2026-04-29T00:35:57.2703201Z ##[endgroup]
+build	Build with Gradle	2026-04-29T00:35:58.7550579Z Downloading https://services.gradle.org/distributions/gradle-8.5-bin.zip
+build	Build with Gradle	2026-04-29T00:36:01.8943837Z ............10%.............20%............30%.............40%.............50%............60%.............70%.............80%............90%.............100%
+build	Build with Gradle	2026-04-29T00:36:03.1126247Z 
+build	Build with Gradle	2026-04-29T00:36:03.1127618Z Welcome to Gradle 8.5!
+build	Build with Gradle	2026-04-29T00:36:03.1128204Z 
+build	Build with Gradle	2026-04-29T00:36:03.1129468Z Here are the highlights of this release:
+build	Build with Gradle	2026-04-29T00:36:03.1131767Z  - Support for running on Java 21
+build	Build with Gradle	2026-04-29T00:36:03.1137789Z  - Faster first use with Kotlin DSL
+build	Build with Gradle	2026-04-29T00:36:03.1138566Z  - Improved error and warning messages
+build	Build with Gradle	2026-04-29T00:36:03.1138912Z 
+build	Build with Gradle	2026-04-29T00:36:03.1139127Z For more details see https://docs.gradle.org/8.5/release-notes.html
+build	Build with Gradle	2026-04-29T00:36:03.1139440Z 
+build	Build with Gradle	2026-04-29T00:36:03.3131662Z Starting a Gradle Daemon (subsequent builds will be faster)
+build	Build with Gradle	2026-04-29T00:36:34.9260479Z > Task :app:preBuild UP-TO-DATE
+build	Build with Gradle	2026-04-29T00:36:34.9289030Z > Task :app:preDebugBuild UP-TO-DATE
+build	Build with Gradle	2026-04-29T00:36:34.9314763Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+build	Build with Gradle	2026-04-29T00:36:35.0169336Z > Task :app:checkKotlinGradlePluginConfigurationErrors
+build	Build with Gradle	2026-04-29T00:36:44.3139600Z > Task :app:generateDebugResValues
+build	Build with Gradle	2026-04-29T00:36:44.3189301Z > Task :app:dataBindingMergeDependencyArtifactsDebug
+build	Build with Gradle	2026-04-29T00:36:44.3209385Z > Task :app:generateDebugResources
+build	Build with Gradle	2026-04-29T00:36:46.5129702Z > Task :app:packageDebugResources
+build	Build with Gradle	2026-04-29T00:36:47.8119415Z > Task :app:mergeDebugResources
+build	Build with Gradle	2026-04-29T00:36:47.8137736Z > Task :app:parseDebugLocalResources
+build	Build with Gradle	2026-04-29T00:36:47.9121185Z > Task :app:checkDebugAarMetadata
+build	Build with Gradle	2026-04-29T00:36:48.4119687Z > Task :app:dataBindingGenBaseClassesDebug
+build	Build with Gradle	2026-04-29T00:36:48.4128711Z > Task :app:mapDebugSourceSetPaths
+build	Build with Gradle	2026-04-29T00:36:48.4129699Z > Task :app:createDebugCompatibleScreenManifests
+build	Build with Gradle	2026-04-29T00:36:48.4130561Z > Task :app:extractDeepLinksDebug
+build	Build with Gradle	2026-04-29T00:36:48.8159111Z 
+build	Build with Gradle	2026-04-29T00:36:48.8169338Z > Task :app:processDebugMainManifest
+build	Build with Gradle	2026-04-29T00:36:48.8240334Z [org.tensorflow:tensorflow-lite:2.14.0] /home/runner/.gradle/caches/transforms-3/231d4c9205586b3c93bbc6823ac8512c/transformed/jetified-tensorflow-lite-2.14.0/AndroidManifest.xml Warning:
+build	Build with Gradle	2026-04-29T00:36:48.8244850Z 	Namespace 'org.tensorflow.lite' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite:2.14.0, org.tensorflow:tensorflow-lite-gpu:2.14.0, org.tensorflow:tensorflow-lite-api:2.14.0. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+build	Build with Gradle	2026-04-29T00:36:48.8253455Z [org.tensorflow:tensorflow-lite-support:0.4.4] /home/runner/.gradle/caches/transforms-3/521b5bc044fd9b7a62bc2b5ca37e3bd7/transformed/jetified-tensorflow-lite-support-0.4.4/AndroidManifest.xml Warning:
+build	Build with Gradle	2026-04-29T00:36:48.8281149Z 	Namespace 'org.tensorflow.lite.support' is used in multiple modules and/or libraries: org.tensorflow:tensorflow-lite-support:0.4.4, org.tensorflow:tensorflow-lite-support-api:0.4.4. Please ensure that all modules and libraries have a unique namespace. For more information, See https://developer.android.com/studio/build/configure-app-module#set-namespace
+build	Build with Gradle	2026-04-29T00:36:48.9139137Z 
+build	Build with Gradle	2026-04-29T00:36:48.9139769Z > Task :app:processDebugManifest
+build	Build with Gradle	2026-04-29T00:36:49.0130751Z > Task :app:javaPreCompileDebug
+build	Build with Gradle	2026-04-29T00:36:49.0169384Z > Task :app:mergeDebugShaders
+build	Build with Gradle	2026-04-29T00:36:49.0183572Z > Task :app:compileDebugShaders NO-SOURCE
+build	Build with Gradle	2026-04-29T00:36:49.0189139Z > Task :app:generateDebugAssets UP-TO-DATE
+build	Build with Gradle	2026-04-29T00:36:50.4159726Z > Task :app:mergeDebugAssets
+build	Build with Gradle	2026-04-29T00:36:52.7117023Z > Task :app:desugarDebugFileDependencies
+build	Build with Gradle	2026-04-29T00:36:52.7122227Z > Task :app:processDebugManifestForPackage
+build	Build with Gradle	2026-04-29T00:36:52.7122904Z > Task :app:checkDebugDuplicateClasses
+build	Build with Gradle	2026-04-29T00:36:53.0120765Z > Task :app:compressDebugAssets
+build	Build with Gradle	2026-04-29T00:37:22.6129574Z > Task :app:processDebugResources
+build	Build with Gradle	2026-04-29T00:37:23.6129371Z > Task :app:mergeExtDexDebug
+build	Build with Gradle	2026-04-29T00:37:30.1140958Z > Task :app:mergeDebugJniLibFolders
+build	Build with Gradle	2026-04-29T00:37:30.1152535Z > Task :app:mergeLibDexDebug
+build	Build with Gradle	2026-04-29T00:37:30.4117344Z > Task :app:mergeDebugNativeLibs
+build	Build with Gradle	2026-04-29T00:37:31.1116659Z > Task :app:validateSigningDebug
+build	Build with Gradle	2026-04-29T00:37:31.1119053Z > Task :app:writeDebugAppMetadata
+build	Build with Gradle	2026-04-29T00:37:31.1119801Z > Task :app:writeDebugSigningConfigVersions
+build	Build with Gradle	2026-04-29T00:37:31.3115887Z 
+build	Build with Gradle	2026-04-29T00:37:31.3116694Z > Task :app:stripDebugDebugSymbols
+build	Build with Gradle	2026-04-29T00:37:31.3118707Z Unable to strip the following libraries, packaging them as they are: libimage_processing_util_jni.so, libtensorflowlite_gpu_jni.so, libtensorflowlite_jni.so.
+build	Build with Gradle	2026-04-29T00:37:41.2162549Z e: file:///home/runner/work/NLNG_project/NLNG_project/app/src/main/java/com/sentinelng/ui/CameraActivity.kt:101:38 Unresolved reference: text
+build	Build with Gradle	2026-04-29T00:37:41.2163602Z 
+build	Build with Gradle	2026-04-29T00:37:41.2165886Z > Task :app:compileDebugKotlin FAILED
+build	Build with Gradle	2026-04-29T00:37:41.3119779Z 
+build	Build with Gradle	2026-04-29T00:37:41.3127043Z FAILURE: Build failed with an exception.
+build	Build with Gradle	2026-04-29T00:37:41.3137307Z 
+build	Build with Gradle	2026-04-29T00:37:41.3137539Z 30 actionable tasks: 30 executed
+build	Build with Gradle	2026-04-29T00:37:41.3138675Z * What went wrong:
+build	Build with Gradle	2026-04-29T00:37:41.3139451Z Execution failed for task ':app:compileDebugKotlin'.
+build	Build with Gradle	2026-04-29T00:37:41.3155190Z > A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+build	Build with Gradle	2026-04-29T00:37:41.3174227Z    > Compilation error. See log for more details
+build	Build with Gradle	2026-04-29T00:37:41.3199479Z 
+build	Build with Gradle	2026-04-29T00:37:41.3203269Z * Try:
+build	Build with Gradle	2026-04-29T00:37:41.3203930Z > Run with --stacktrace option to get the stack trace.
+build	Build with Gradle	2026-04-29T00:37:41.3204905Z > Run with --info or --debug option to get more log output.
+build	Build with Gradle	2026-04-29T00:37:41.3205705Z > Run with --scan to get full insights.
+build	Build with Gradle	2026-04-29T00:37:41.3206432Z > Get more help at https://help.gradle.org.
+build	Build with Gradle	2026-04-29T00:37:41.3206977Z 
+build	Build with Gradle	2026-04-29T00:37:41.3207303Z BUILD FAILED in 1m 43s
+build	Build with Gradle	2026-04-29T00:37:41.7256713Z ##[error]Process completed with exit code 1.
+build	Post set up JDK 17	﻿2026-04-29T00:37:41.7376214Z Post job cleanup.
+build	Post Run actions/checkout@v4	﻿2026-04-29T00:37:41.9325190Z Post job cleanup.
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0394212Z [command]/usr/bin/git version
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0437833Z git version 2.53.0
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0485365Z Temporarily overriding HOME='/home/runner/work/_temp/37d508f1-a2f0-4959-a5a7-e063bfc2664f' before making global git config changes
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0486277Z Adding repository directory to the temporary git global config as a safe directory
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0499561Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/NLNG_project/NLNG_project
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0536423Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0570984Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0803960Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0826957Z http.https://github.com/.extraheader
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0840519Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.0873028Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.1106128Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build	Post Run actions/checkout@v4	2026-04-29T00:37:42.1138615Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build	Complete job	﻿2026-04-29T00:37:42.1480135Z Cleaning up orphan processes
+build	Complete job	2026-04-29T00:37:42.1847999Z Terminate orphan process: pid (3089) (java)
+build	Complete job	2026-04-29T00:37:42.1894708Z Terminate orphan process: pid (3244) (java)
+build	Complete job	2026-04-29T00:37:42.1914021Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-java@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
