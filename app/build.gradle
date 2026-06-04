@@ -108,29 +108,12 @@ dependencies {
     // ── llama.cpp for Android (GGUF inference) ─────────────────────────────
     // Provided via JitPack. This wraps the official ggerganov/llama.cpp with
     // an Android-friendly JNI layer and pre-built libllama.so per ABI.
-    //
-    // NOTE: com.anggrayudi:android-llama.cpp is not published to Maven Central.
-    // The most battle-tested JitPack option is the official llama.cpp repo:
-    //   // implementation 'com.github.ggerganov:llama.cpp:b3958'  // pin to a stable tag
-    //
-    // Until a stable AAR release is available you have two options:
-    //   OPTION A – JitPack (pinned commit/tag, requires network on first Gradle sync):
-    // implementation 'com.github.ggerganov:llama.cpp:b3958'
-    //
-    //   OPTION B – Local AAR (place the AAR in app/libs/ and comment out OPTION A):
-    //   implementation files('libs/llama-android.aar')
+    implementation 'com.github.ggerganov:llama.cpp:b3958'
 
     // ── FastText Android wrapper (.ftz intent classification) ──────────────
     // georgenitram/fasttext-android wraps the official Facebook fastText C++
     // library with a thin JNI layer and exposes a simple Kotlin/Java API.
-    //
-    // JitPack coordinates (requires JitPack maven block in settings.gradle,
-    // which is already present):
-    // implementation 'com.github.georgenitram:fasttext-android:1.0.0'
-    //
-    // If the JitPack build fails (the repo may not publish a pre-built AAR),
-    // fall back to the local AAR option:
-    //   implementation files('libs/fasttext-android.aar')
+    implementation 'com.github.georgenitram:fasttext-android:1.0.0'
 
     // ── Testing ────────────────────────────────────────────────────────────
     testImplementation 'junit:junit:4.13.2'
